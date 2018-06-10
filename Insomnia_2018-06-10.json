@@ -1,0 +1,280 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2018-06-10T14:01:32.047Z",
+	"__export_source": "insomnia.desktop.app:v5.16.6",
+	"resources": [
+		{
+			"_id": "wrk_8a5a223c1c4842288e9e0a44c3afaae9",
+			"created": 1528615764151,
+			"description": "",
+			"modified": 1528615764151,
+			"name": "Insomnia",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_ee766184b227477986599e7262ae1dae",
+			"color": null,
+			"created": 1528615764187,
+			"data": {},
+			"isPrivate": false,
+			"modified": 1528615764187,
+			"name": "New Environment",
+			"parentId": "wrk_8a5a223c1c4842288e9e0a44c3afaae9",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_3933ab91e9184848ace684444827a227",
+			"cookies": [],
+			"created": 1528615764286,
+			"modified": 1528615764286,
+			"name": "Default Jar",
+			"parentId": "wrk_8a5a223c1c4842288e9e0a44c3afaae9",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "req_4bee3070444f46e589664effa4c4e93e",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"id": "pair_d2024b3fc76b40a38b88219679234044",
+						"name": "username",
+						"value": "asasas"
+					},
+					{
+						"id": "pair_a93cdd433de34cb9a7aff25b96a951eb",
+						"name": "password",
+						"value": "qwertyss"
+					}
+				]
+			},
+			"created": 1528615799319,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_9ab8e613bd1241d6a7f3b2e87fb7072f",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1528615799319,
+			"method": "POST",
+			"modified": 1528637457476,
+			"name": "login",
+			"parameters": [],
+			"parentId": "wrk_8a5a223c1c4842288e9e0a44c3afaae9",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_6fed47a80ce64fe5b2914059da4d8d18",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"id": "pair_77d845722510448a837ad9e504d514fc",
+						"name": "email",
+						"value": "dita@gmail.com"
+					},
+					{
+						"id": "pair_68a5c149565a459fb65eccd1ff196971",
+						"name": "username",
+						"value": "asasas"
+					},
+					{
+						"id": "pair_1966b7c802ee4cc98a546b24e5a3ddfe",
+						"name": "password",
+						"value": "qwertyss"
+					},
+					{
+						"id": "pair_38c335a90080447f9649c7b9264e6bf7",
+						"name": "password_2",
+						"value": "qwertyss"
+					}
+				]
+			},
+			"created": 1528619449943,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_43a0a4e814504b1c91a1abf46481ee00",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1528619449943,
+			"method": "POST",
+			"modified": 1528626976067,
+			"name": "register",
+			"parameters": [],
+			"parentId": "wrk_8a5a223c1c4842288e9e0a44c3afaae9",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/register",
+			"_type": "request"
+		},
+		{
+			"_id": "req_eabebd0498044ab0bbef86c36c14933e",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1528619478320,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_e4aaa7cd74044876abadbf793f3de004",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1528619478320,
+			"method": "GET",
+			"modified": 1528619650840,
+			"name": "user_list",
+			"parameters": [],
+			"parentId": "wrk_8a5a223c1c4842288e9e0a44c3afaae9",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/",
+			"_type": "request"
+		},
+		{
+			"_id": "req_0078078ca1434a998e3436a53bcc06d1",
+			"authentication": {},
+			"body": {},
+			"created": 1528629299738,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1528629299738,
+			"method": "DELETE",
+			"modified": 1528629815739,
+			"name": "delete all user list",
+			"parameters": [],
+			"parentId": "wrk_8a5a223c1c4842288e9e0a44c3afaae9",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/5b1d06e38e47e845b0562947",
+			"_type": "request"
+		},
+		{
+			"_id": "req_4202beaf269c451891bf1f10196bc9b0",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/x-www-form-urlencoded",
+				"params": [
+					{
+						"id": "pair_ec8d67392f394c2dbf7b6ed67c5f769f",
+						"name": "ktp",
+						"value": "1112121212212210"
+					},
+					{
+						"id": "pair_66dd6c40458d42669504d967264ceb03",
+						"name": "photo_user",
+						"value": "ggwp.PNG"
+					},
+					{
+						"id": "pair_6e6bd9966dd84589b3b70f035ee8d805",
+						"name": "photo_ktp",
+						"value": "akubukandia.JPG"
+					}
+				]
+			},
+			"created": 1528632958971,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_670bd9221ada42c592b2dc831c37b1ef",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded"
+				},
+				{
+					"id": "pair_6a50b3c745254f9fb0ee1c6431b3f3d6",
+					"name": "token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjViMWQyMDdkZGVlNmIzNDRkMDc3YWRmZSIsInVzZXJuYW1lIjoiYXNhc2FzIiwiZW1haWwiOiJkaXRhQGdtYWlsLmNvbSIsImlhdCI6MTUyODYzNzQ1OH0.Svhxrv3zceMH9LYBMP_bTddNHuPi_zzS0djkgkUvqS0"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1528632958971,
+			"method": "POST",
+			"modified": 1528637648172,
+			"name": "register seller",
+			"parameters": [],
+			"parentId": "wrk_8a5a223c1c4842288e9e0a44c3afaae9",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/sellers",
+			"_type": "request"
+		},
+		{
+			"_id": "req_4d9826fd388e419b8867da59f99e02d5",
+			"authentication": {},
+			"body": {},
+			"created": 1528638820094,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1528638820094,
+			"method": "GET",
+			"modified": 1528638827538,
+			"name": "get all seller",
+			"parameters": [],
+			"parentId": "wrk_8a5a223c1c4842288e9e0a44c3afaae9",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/sellers",
+			"_type": "request"
+		},
+		{
+			"_id": "req_da39ae2f29b745b4a70c40552a5083b6",
+			"authentication": {},
+			"body": {},
+			"created": 1528638843734,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1528638843734,
+			"method": "DELETE",
+			"modified": 1528638947281,
+			"name": "delete",
+			"parameters": [],
+			"parentId": "wrk_8a5a223c1c4842288e9e0a44c3afaae9",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/sellers/5b1d263d0615961fa480b9c8",
+			"_type": "request"
+		}
+	]
+}
