@@ -1,5 +1,5 @@
-# My First API
-Demo app with basic REST API.
+# SHOPEE API
+REST API.
 ## REST API
 
 List of user routes:
