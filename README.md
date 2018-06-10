@@ -11,17 +11,17 @@ Route|HTTP|Description
 /|GET|Get all the users info
 /:id|DELETE|delete user using id user at params uri
 /sellers|POST|Create seller, but u must login and using token at headers
-/:id|DELETE|Delete seller
-/|GET|Get add seller
+/seller/:id|DELETE|Delete seller
+/seller|GET|Get add seller
 
 ## Usage
 with only npm:
 
 ```
-
+git clone
 npm install
 npm start
-npm run dev
+
 ```
 
-Access the website via ``https://localhost:3000`` or API via ``https://localhost:3000/api``.
+Access the website via ``https://localhost:3000``.
