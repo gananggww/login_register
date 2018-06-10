@@ -18,6 +18,8 @@ mongoose.connect(`mongodb://gananggww:Fn2yRagWtCPhdWIJ@cluster0-shard-00-00-rcyk
 
 
 var usersRouter = require('./routes/users');
+var sellersRouter = require('./routes/sellers');
+
 
 var app = express();
 
@@ -32,6 +34,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', usersRouter);
+app.use('/sellers', sellersRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
